@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T16:47:46.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vGeR6-dQD4nvHi8c3tR0" version="15.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-09T17:25:27.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7tj74MVCW5iVv4hBPJak" version="15.7.1" type="github" pages="3">
   <diagram id="S2I0wlSMrX725rbz-DaV" name="Use case">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C7ps7MXUUIanhTUX-3WN-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;fontSize=17;align=left;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="531.5" y="565" width="20" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="UnctlhhIIt_SyHVeLb5L-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="760" height="710" as="geometry" />
         </mxCell>
@@ -73,21 +76,6 @@
         <mxCell id="UnctlhhIIt_SyHVeLb5L-23" value="UC:05-2&lt;br&gt;お知らせを管理する" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="443" y="660" width="197" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UnctlhhIIt_SyHVeLb5L-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=17;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UnctlhhIIt_SyHVeLb5L-23">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="510" as="sourcePoint" />
-            <mxPoint x="542" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UnctlhhIIt_SyHVeLb5L-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=17;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="UnctlhhIIt_SyHVeLb5L-27" target="UnctlhhIIt_SyHVeLb5L-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="510" as="sourcePoint" />
-            <mxPoint x="440" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UnctlhhIIt_SyHVeLb5L-27" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=17;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="531.5" y="560" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="UnctlhhIIt_SyHVeLb5L-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=17;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UnctlhhIIt_SyHVeLb5L-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="610" as="sourcePoint" />
@@ -114,6 +102,21 @@
         </mxCell>
         <mxCell id="lSmq44WDUAsbJsBYbQgb-4" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=17;rotation=-131;" vertex="1" parent="1">
           <mxGeometry x="500" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C7ps7MXUUIanhTUX-3WN-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=17;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UnctlhhIIt_SyHVeLb5L-23" target="UnctlhhIIt_SyHVeLb5L-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="541.5" y="660" as="sourcePoint" />
+            <mxPoint x="542" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C7ps7MXUUIanhTUX-3WN-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="580" as="sourcePoint" />
+            <mxPoint x="550" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -266,17 +269,17 @@
             <mxPoint x="820" y="552.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLW_QcxfSuufsoovuB6Y-33" value="&lt;div&gt;&lt;span&gt;メモ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;お知らせは xxxx年x月というカテゴリでまとめる&lt;/li&gt;&lt;li&gt;ゲーム検索は題名、作者名、ジャンル(タグ)で検索できるようにする&lt;/li&gt;&lt;li&gt;ゲーム詳細画面でコメントをつけられるようにする&lt;/li&gt;&lt;li&gt;各ゲームの閲覧回数やダウンロード回数がわかるようにする&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="Oxms8DEm8v7QBsaq4cV5-1">
-          <mxGeometry x="15" y="370" width="245" height="330" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="q17iD_PxmGGGY34T6oNs" name="メモ">
+  <diagram id="q17iD_PxmGGGY34T6oNs" name="memo">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="H0Et2-3BPyRCmr18F_8d-0" />
         <mxCell id="H0Et2-3BPyRCmr18F_8d-1" parent="H0Et2-3BPyRCmr18F_8d-0" />
+        <mxCell id="yw6hu8eK8ddh-0jOtXwQ-0" value="&lt;div&gt;&lt;span&gt;アップロード&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;アップロード時には以下の項目を入力する。&lt;/li&gt;&lt;ul&gt;&lt;li&gt;ゲームタイトル&lt;/li&gt;&lt;li&gt;ゲームが保存されているストレージへのリンク（未完成の場合は省略可）&lt;/li&gt;&lt;li&gt;ゲーム紹介コメント&lt;/li&gt;&lt;ul&gt;&lt;li&gt;キャッチコピー（ゲーム一覧画面で表示される短いゲーム紹介文）&lt;/li&gt;&lt;li&gt;ゲーム説明（ゲーム詳細画面で表示）&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;ゲームのスクリーンショット画像（0～複数枚）&lt;/li&gt;&lt;li&gt;タグ（ジャンルまたは自作タグ。個数制限をつける）&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;ゲーム一覧・詳細画面&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;ゲーム詳細画面でコメントをつけられるようにする&lt;/li&gt;&lt;li&gt;拍手機能をつける&lt;/li&gt;&lt;li&gt;各ゲームの閲覧回数やダウンロード回数がわかるようにする&lt;/li&gt;&lt;ul&gt;&lt;li&gt;閲覧回数はマイページのみで見れるようにし、ゲーム投稿者だけがわかるようにする&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;ゲーム検索の対象は題名、作者名、ジャンル(タグ）&lt;/li&gt;&lt;li&gt;ゲーム一覧はアップロード日時、最終更新日時、ダウンロード回数、拍手回数でソートできるようにする&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;コメント&lt;/div&gt;&lt;ul&gt;&lt;li&gt;コメント時には投稿者名、本文を入力する。&lt;/li&gt;&lt;li&gt;投稿ボタンの近くにマナーを守ってコメントするように注意書きを書く&lt;/li&gt;&lt;li&gt;メンバーなら投稿者名を入力する必要をなくす&lt;/li&gt;&lt;ul&gt;&lt;li&gt;コメント投稿者の名前を決める欄の近くに、ログイン画面のリンクを貼る&lt;/li&gt;&lt;li&gt;ログイン後は元の画面に戻す&lt;/li&gt;&lt;li&gt;書いている途中のコメントが保存される方法を考える、もしくは画面遷移前にコメントが消えることを警告する&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;メンバーからのコメントは、色付けしたり吹き出しの方向を変えたりしてわかるようにする&lt;/li&gt;&lt;li&gt;スパムコメント対策を考える&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;お知らせ&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;お知らせは xxxx年x月というカテゴリでまとめる&lt;/li&gt;&lt;li&gt;お知らせ投稿時には題名、本文を入力する。&lt;/li&gt;&lt;li&gt;管理者のみお知らせの投稿、更新、削除ができるようにする。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;ログイン&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;メンバー新規登録は管理者が行う。&lt;/li&gt;&lt;li&gt;IDは大学メールアドレスもしくは個人のメールアドレスとする&lt;/li&gt;&lt;li&gt;マイページからメンバー脱退ができるようにする&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
+          <mxGeometry x="20" y="10" width="890" height="1010" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
