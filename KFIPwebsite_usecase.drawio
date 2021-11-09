@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T17:59:07.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="d1WUBOcNkGuPxS2sKuY7" version="15.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-09T18:04:28.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ERaR31i5PrcTUPvXOMFt" version="15.7.1" type="github" pages="3">
   <diagram id="S2I0wlSMrX725rbz-DaV" name="Use case">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,47 +277,71 @@
       <root>
         <mxCell id="H0Et2-3BPyRCmr18F_8d-0" />
         <mxCell id="H0Et2-3BPyRCmr18F_8d-1" parent="H0Et2-3BPyRCmr18F_8d-0" />
-        <mxCell id="yw6hu8eK8ddh-0jOtXwQ-0" value="&lt;div&gt;&lt;span&gt;アップロード&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;アップロード時には以下の項目を入力する。&lt;/li&gt;&lt;ul&gt;&lt;li&gt;ゲームタイトル&lt;/li&gt;&lt;li&gt;ゲームが保存されているストレージへのリンク（未完成の場合は省略可）(データベースにアップロードすると容量が怖い)&lt;/li&gt;&lt;li&gt;ゲーム紹介コメント&lt;/li&gt;&lt;ul&gt;&lt;li&gt;キャッチコピー（ゲーム一覧画面で表示される短いゲーム紹介文）&lt;/li&gt;&lt;li&gt;ゲーム説明（ゲーム詳細画面で表示）&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;ゲームのスクリーンショット画像（0～複数枚）&lt;/li&gt;&lt;li&gt;タグ（ジャンルまたは自作タグ。個数制限をつける）&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;ゲーム一覧・詳細画面&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;ゲーム詳細画面でコメントをつけられるようにする&lt;/li&gt;&lt;li&gt;拍手機能をつける&lt;/li&gt;&lt;li&gt;各ゲームの閲覧回数やダウンロード回数がわかるようにする&lt;/li&gt;&lt;ul&gt;&lt;li&gt;閲覧回数はマイページのみで見れるようにし、ゲーム投稿者だけがわかるようにする&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;ゲーム検索の対象は題名、作者名、ジャンル(タグ）&lt;/li&gt;&lt;li&gt;ゲーム一覧はアップロード日時、最終更新日時、ダウンロード回数、拍手回数でソートできるようにする&lt;/li&gt;&lt;li&gt;最終更新日は作者が内容を更新した、もしくはコメントが投稿されたときとする。&lt;/li&gt;&lt;li&gt;作者（メンバー）の名前とプロフ画像を表示する&lt;/li&gt;&lt;li&gt;作者は何人いてもよいが、存在するメンバーのみ選択できる。&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;コメント&lt;/div&gt;&lt;ul&gt;&lt;li&gt;コメント時には投稿者名、本文を入力する。&lt;/li&gt;&lt;li&gt;投稿ボタンの近くにマナーを守ってコメントするように注意書きを書く&lt;/li&gt;&lt;li&gt;メンバーなら投稿者名を入力する必要をなくす&lt;/li&gt;&lt;ul&gt;&lt;li&gt;コメント投稿者の名前を決める欄の近くに、ログイン画面のリンクを貼る&lt;/li&gt;&lt;li&gt;ログイン後は元の画面に戻す&lt;/li&gt;&lt;li&gt;書いている途中のコメントが保存される方法を考える、もしくは画面遷移前にコメントが消えることを警告する&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;メンバーからのコメントは、色付けしたり吹き出しの方向を変えたりしてわかるようにする&lt;/li&gt;&lt;li&gt;スパムコメント対策を考える&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;お知らせ&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;お知らせは xxxx年x月というカテゴリでまとめる&lt;/li&gt;&lt;li&gt;お知らせ投稿時には題名、本文を入力する。&lt;/li&gt;&lt;li&gt;管理者のみお知らせの投稿、更新、削除ができるようにする。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;ログイン&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;メンバー新規登録は管理者が行う。&lt;/li&gt;&lt;li&gt;IDは大学メールアドレスもしくは個人のメールアドレスとする&lt;/li&gt;&lt;li&gt;マイページからメンバー脱退ができるようにする&lt;/li&gt;&lt;li&gt;マイページから名前やプロフ画像を変更できるようにする&lt;/li&gt;&lt;li&gt;マイページからアップロードしたゲームの更新、削除ができる&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;↓&lt;/div&gt;&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;&lt;b&gt;スキーマ &lt;/b&gt;(idは省略)&lt;/div&gt;&lt;div&gt;ゲーム（&lt;span&gt;タイトル、リンク、画像、タグ、キャッチコピー、説明文、投稿日時、最終更新日、閲覧回数、DL回数、拍手回数）&lt;/span&gt;&lt;/div&gt;制作（ゲームid、作者id）&lt;br&gt;メンバー（メールアドレス、パスワード、名前、プロフ画像）&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;お知らせ（題名、本文、投稿日時&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;コメント（投稿者名、本文、投稿日時&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;投稿（メンバid、コメントid）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="20" y="10" width="1050" height="1180" as="geometry" />
+        <mxCell id="yw6hu8eK8ddh-0jOtXwQ-0" value="&lt;div&gt;&lt;span&gt;アップロード&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;アップロード時には以下の項目を入力する。&lt;/li&gt;&lt;ul&gt;&lt;li&gt;ゲームタイトル&lt;/li&gt;&lt;li&gt;ゲームが保存されているストレージへのリンク（未完成の場合は省略可）(データベースにアップロードすると容量が怖い)&lt;/li&gt;&lt;li&gt;ゲーム紹介コメント&lt;/li&gt;&lt;ul&gt;&lt;li&gt;キャッチコピー（ゲーム一覧画面で表示される短いゲーム紹介文）&lt;/li&gt;&lt;li&gt;ゲーム説明（ゲーム詳細画面で表示）&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;ゲームのスクリーンショット画像（0～複数枚）&lt;/li&gt;&lt;li&gt;タグ（ジャンルまたは自作タグ。個数制限をつける）&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;ゲーム一覧・詳細画面&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;ゲーム詳細画面でコメントをつけられるようにする&lt;/li&gt;&lt;li&gt;拍手機能をつける&lt;/li&gt;&lt;li&gt;各ゲームの閲覧回数やダウンロード回数がわかるようにする&lt;/li&gt;&lt;ul&gt;&lt;li&gt;閲覧回数はマイページのみで見れるようにし、ゲーム投稿者だけがわかるようにする&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;ゲーム検索の対象は題名、作者名、ジャンル(タグ）&lt;/li&gt;&lt;li&gt;ゲーム一覧はアップロード日時、最終更新日時、ダウンロード回数、拍手回数でソートできるようにする&lt;/li&gt;&lt;li&gt;最終更新日は作者が内容を更新した、もしくはコメントが投稿されたときとする。&lt;/li&gt;&lt;li&gt;作者（メンバー）の名前とプロフ画像を表示する&lt;/li&gt;&lt;li&gt;作者は何人いてもよいが、存在するメンバーのみ選択できる。&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;コメント&lt;/div&gt;&lt;ul&gt;&lt;li&gt;コメント時には投稿者名、本文を入力する。&lt;/li&gt;&lt;li&gt;投稿ボタンの近くにマナーを守ってコメントするように注意書きを書く&lt;/li&gt;&lt;li&gt;メンバーなら投稿者名を入力する必要をなくす&lt;/li&gt;&lt;ul&gt;&lt;li&gt;コメント投稿者の名前を決める欄の近くに、ログイン画面のリンクを貼る&lt;/li&gt;&lt;li&gt;ログイン後は元の画面に戻す&lt;/li&gt;&lt;li&gt;書いている途中のコメントが保存される方法を考える、もしくは画面遷移前にコメントが消えることを警告する&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;メンバーからのコメントは、色付けしたり吹き出しの方向を変えたりしてわかるようにする&lt;/li&gt;&lt;li&gt;スパムコメント対策を考える&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;お知らせ&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;お知らせは xxxx年x月というカテゴリでまとめる&lt;/li&gt;&lt;li&gt;お知らせ投稿時には題名、本文を入力する。&lt;/li&gt;&lt;li&gt;管理者のみお知らせの投稿、更新、削除ができるようにする。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;ログイン&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;メンバー新規登録は管理者が行う。&lt;/li&gt;&lt;li&gt;IDは大学メールアドレスもしくは個人のメールアドレスとする&lt;/li&gt;&lt;li&gt;マイページからメンバー脱退ができるようにする&lt;/li&gt;&lt;li&gt;マイページから名前やプロフ画像を変更できるようにする&lt;/li&gt;&lt;li&gt;マイページからアップロードしたゲームの更新、削除ができる&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;↓&lt;/div&gt;&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;&lt;b&gt;スキーマ &lt;/b&gt;(idは省略)&lt;/div&gt;&lt;div&gt;ゲーム（&lt;span&gt;タイトル、リンク、SS画像、タグ、キャッチコピー、説明文、投稿日時、最終更新日、閲覧回数、DL回数、拍手回数）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;タグ（名前）&lt;/div&gt;制作（ゲームid、作者id）&lt;br&gt;メンバー（メールアドレス、パスワード、名前、プロフ画像）&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;お知らせ（題名、本文、投稿日時&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;コメント（投稿者名、本文、投稿日時&lt;/span&gt;&lt;span&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;投稿（メンバid、コメントid）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
+          <mxGeometry x="20" y="10" width="1050" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-0" value="ゲーム" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="160" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-1" value="メンバー" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="430" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="H0Et2-3BPyRCmr18F_8d-1" source="_OKoU-SVonRXjfvhuIpV-1" target="_OKoU-SVonRXjfvhuIpV-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="1350" as="sourcePoint" />
-            <mxPoint x="310" y="1300" as="targetPoint" />
+            <mxPoint x="300" y="1400" as="sourcePoint" />
+            <mxPoint x="350" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-2" value="制作" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="320" y="1225" width="80" height="50" as="geometry" />
+          <mxGeometry x="360" y="1275" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-4" value="コメント" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="700" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-6" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="H0Et2-3BPyRCmr18F_8d-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="1250" as="sourcePoint" />
-            <mxPoint x="550" y="1250" as="targetPoint" />
+            <mxPoint x="740" y="1300" as="sourcePoint" />
+            <mxPoint x="590" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-8" value="投稿" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="590" y="1225" width="80" height="50" as="geometry" />
+          <mxGeometry x="630" y="1275" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-9" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="260" y="1220" width="60" height="30" as="geometry" />
+          <mxGeometry x="300" y="1270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-10" value="M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="390" y="1220" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="1270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-11" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="660" y="1225" width="60" height="30" as="geometry" />
+          <mxGeometry x="700" y="1275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_OKoU-SVonRXjfvhuIpV-12" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
-          <mxGeometry x="530" y="1220" width="60" height="30" as="geometry" />
+          <mxGeometry x="570" y="1270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_OKoU-SVonRXjfvhuIpV-14" value="メンバー" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
+          <mxGeometry x="470" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OKoU-SVonRXjfvhuIpV-15" value="タグ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
+          <mxGeometry x="200" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OKoU-SVonRXjfvhuIpV-17" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
+          <mxGeometry x="220" y="1380" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_OKoU-SVonRXjfvhuIpV-16" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="H0Et2-3BPyRCmr18F_8d-1" source="_OKoU-SVonRXjfvhuIpV-0" target="_OKoU-SVonRXjfvhuIpV-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1170" as="sourcePoint" />
+            <mxPoint x="610" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OKoU-SVonRXjfvhuIpV-19" value="M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="H0Et2-3BPyRCmr18F_8d-1">
+          <mxGeometry x="225" y="1330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_OKoU-SVonRXjfvhuIpV-20" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="H0Et2-3BPyRCmr18F_8d-1" source="_OKoU-SVonRXjfvhuIpV-0" target="_OKoU-SVonRXjfvhuIpV-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1330" as="sourcePoint" />
+            <mxPoint x="260" y="1410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
